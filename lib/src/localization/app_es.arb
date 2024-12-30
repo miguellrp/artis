@@ -1,0 +1,12 @@
+{
+  "@appDetails": {
+    "title": "artis",
+    "description": "tu biblioteca cultural"
+  },
+  "accept": "Aceptar",
+  "emptyFieldsWarning": "Hay campos requeridos sin cubrir",
+  "password": "Contraseña",
+  "login": "Iniciar sesión",
+  "subtitleApp": "tu biblioteca cultural",
+  "userName": "Nombre de usuario"
+}

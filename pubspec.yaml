@@ -1,0 +1,48 @@
+name: artis
+description: "A personal library"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  crypto: ^3.0.6
+  delightful_toast: ^1.1.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  path: ^1.9.0
+  sqflite: ^2.4.1
+  sqflite_common_ffi: ^2.3.4+4
+  window_manager: ^0.4.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  flutter_launcher_icons: "^0.14.2"
+  flutter_svg: ^2.0.16
+
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: RobotoSlab
+      fonts:
+        - asset: assets/fonts/RobotoSlab-VariableFont.ttf
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/artis_logo.png"

@@ -1,0 +1,12 @@
+{
+  "@appDetails": {
+    "title": "artis",
+    "description": "your cultural library"
+  },
+  "accept": "Accept",
+  "emptyFieldsWarning": "There are required fields not filled",
+  "password": "Password",
+  "login": "Log In",
+  "subtitleApp": "your cultural library",
+  "userName": "Username"
+}
