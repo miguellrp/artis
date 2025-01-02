@@ -4,9 +4,12 @@
     "description": "your cultural library"
   },
   "accept": "Accept",
+  "iconBy": "Icon by",
   "emptyFieldsWarning": "There are required fields not filled",
-  "password": "Password",
-  "login": "Log In",
+  "errorMessage": "Oops... An error seems to have occurred",
+  "hi": "Hi",
+  "login": "Login",
+  "madeBy": "Made by",
   "subtitleApp": "your cultural library",
   "userName": "Username"
 }

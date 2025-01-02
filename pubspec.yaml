@@ -10,7 +10,7 @@ environment:
 
 dependencies:
   crypto: ^3.0.6
-  delightful_toast: ^1.1.0
+  elegant_notification: ^2.4.1
   flutter:
     sdk: flutter
   flutter_localizations:
@@ -19,6 +19,7 @@ dependencies:
   path: ^1.9.0
   sqflite: ^2.4.1
   sqflite_common_ffi: ^2.3.4+4
+  url_launcher: ^6.3.1
   window_manager: ^0.4.3
 
 dev_dependencies:
@@ -36,6 +37,8 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/user_pic/
+    - assets/images/user_pic/presets/
 
   fonts:
     - family: RobotoSlab

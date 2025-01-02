@@ -1,3 +1,4 @@
+import 'package:artis/src/pages/home_page.dart';
 import 'package:artis/src/pages/login_page.dart';
 import 'package:artis/src/settings/global_theme_data.dart';
 import 'package:artis/src/settings/settings_controller.dart';
@@ -27,6 +28,10 @@ class ArtisApp extends StatelessWidget {
       localizationsDelegates: AppLocalizations.localizationsDelegates,
       supportedLocales: AppLocalizations.supportedLocales,
       home: MainWindow(),
+      routes: {
+        LoginPage.route: (context) => LoginPage(),
+        HomePage.route: (context) => HomePage()
+      }
     );
   }
 }
@@ -60,6 +65,8 @@ class MainWindow extends StatelessWidget {
         color: Theme.of(context).colorScheme.onTertiary,
         iconSize: 14,
         padding: EdgeInsets.zero,
+        mouseCursor: SystemMouseCursors.basic,
+        highlightColor: Colors.transparent,
         splashRadius: 10,
         hoverColor: hoverColor,
         style: ButtonStyle(shape: WidgetStateProperty.all(RoundedRectangleBorder())),

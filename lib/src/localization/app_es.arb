@@ -4,9 +4,12 @@
     "description": "tu biblioteca cultural"
   },
   "accept": "Aceptar",
+  "iconBy": "Icono por",
   "emptyFieldsWarning": "Hay campos requeridos sin cubrir",
-  "password": "Contraseña",
-  "login": "Iniciar sesión",
+  "errorMessage": "Ups... Parece que ha ocurrido un error",
+  "hi": "Hola",
+  "login": "Entrar",
+  "madeBy": "Hecho por",
   "subtitleApp": "tu biblioteca cultural",
   "userName": "Nombre de usuario"
 }

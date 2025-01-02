@@ -1,4 +1,6 @@
 import 'package:artis/src/app.dart';
+import 'package:artis/src/pages/home_page.dart';
+import 'package:artis/src/pages/login_page.dart';
 import 'package:artis/src/settings/settings_controller.dart';
 import 'package:artis/src/settings/settings_service.dart';
 import 'package:flutter/material.dart';
@@ -7,7 +9,6 @@ import 'package:window_manager/window_manager.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  // Must add this line.
   await windowManager.ensureInitialized();
 
   WindowOptions windowOptions = WindowOptions(
